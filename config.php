@@ -32,17 +32,23 @@ $switch = "0"; // Check README file for valid status numbers and what they do
 //.................................\\
 $VALID_STATUS = array('0', '1', '2', '3'); //Valid Status Codes.
 
-if ($wmacs == 'enabled')
+if ($wmacs == 'disabled') //If WMACS is disabled the below code uses the swith method set above override
+{
+    $status = $switch;
+}
+else //If WMACS is enabled the database method will be used
 {
     //MYSQLi Database Connect
     $dbconnect = new mysqli($mysql_host, $mysql_user, $mysql_pass, $mysql_database, $mysql_port);
-    if($dbconnect->connect_error) //if connection failed status to 2 and exit 
+    if($dbconnect->connect_error) 
     {
+        //If connection failed set status to 2 and exit 
         $status = "2";
         exit();
     }
-    else
+    else //If connection was successful continue
     {
+        //The below can be configured by experienced developers
         $query = "SELECT * FROM $mysql_table"; 
         $data = $dbconnect->prepare($query);
         $data->bind_result($id, $srv_name, $url, $admin, $email, $status, $status_msg, $version, $copyright_label, $copyright_link, $created_date, $modified_date, $last_user);
@@ -65,5 +71,4 @@ if ($wmacs == 'enabled')
             }
     }
 }
-else{$status = $switch;} //If orride is selected this will be processed.
 ?>
