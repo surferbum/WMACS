@@ -1,15 +1,13 @@
 CHANGE LOG
 
-Version 1.1.0.004
--Removed extra code that servered as a custom script.
--Updated down page to handle different status's (the code existed before and is now included)
+Version 2.1.0.006
 -Fixed spelling errors in README file
-
-Version 1.0.0.002
--Minor changes to format of config file
+-Minor changes to format of Config file
+-Removed customizations of script
+-Added status handling to down page (handling of different status codes)
 -Added commenting to source
 
-Version 1.0.
+Version 2.0.
 -Added to Github
 -GNU GPL V2 Licensed
 -Open Source Code
