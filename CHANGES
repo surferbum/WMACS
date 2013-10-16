@@ -5,7 +5,7 @@ Version 2.1.0.006
 -Added text to description in README file.
 -Minor changes to format of Config file
 -Removed customizations of script
--Added status handling to down page (handling of different status codes)
+-Added mulit status handling to down page (handling of different status codes)
 -Added commenting to source
 
 Version 2.0.
