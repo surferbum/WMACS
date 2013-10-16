@@ -51,23 +51,14 @@ else //If WMACS is enabled the database method will be used
         //The below can be configured by experienced developers
         $query = "SELECT * FROM $mysql_table"; 
         $data = $dbconnect->prepare($query);
-        $data->bind_result($id, $srv_name, $url, $admin, $email, $status, $status_msg, $version, $copyright_label, $copyright_link, $created_date, $modified_date, $last_user);
+        $data->bind_result($id, $srv_name, $admin, $email);
 	    $data->execute(); 
 	    while($data->fetch())
             {
                 $_SESSION['id'] = $id;
                 $_SESSION['srv_name'] = $srv_name;
-                $_SESSION['url'] = $url;
                 $_SESSION['admin'] = $admin;
                 $_SESSION['e-mail'] = $email;
-                $_SESSION['status'] = $status;
-                $_SESSION['status_msg'] = $status_msg;
-                $_SESSION['version'] = $version;
-                $_SESSION['copyright_label'] = $copyright_label;
-                $_SESSION['copyright_link'] = $copyright_link;
-                $_SESSION['created_date'] = $created_date;
-                $_SESSION['modified'] = $modified_date; 
-                $_SESSION['last_user'] = $last_user;
             }
     }
 }
