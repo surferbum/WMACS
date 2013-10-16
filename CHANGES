@@ -1,8 +1,12 @@
 CHANGE LOG
 
+Version 1.1.0.004
+-Removed extra code that servered as a custom script.
+-Updated down page to handle different status's (the code existed before and is now included)
+
 Version 1.0.0.002
-- Minor changes to format of config file
-- Added commenting to source
+-Minor changes to format of config file
+-Added commenting to source
 
 Version 1.0.
 -Added to Github
