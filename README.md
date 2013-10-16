@@ -16,3 +16,5 @@ commercial web sites when undergoing maintenance.
 
 NOTE: The original source started with a simple switch which the remains can be 
 found in the down.php page.
+
+Download coming soon to http://downloads.sparrowgrove.com
