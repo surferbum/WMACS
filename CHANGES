@@ -2,6 +2,7 @@ CHANGE LOG
 
 Version 2.1.0.006
 -Fixed spelling errors in README file
+-Added text to description in README file.
 -Minor changes to format of Config file
 -Removed customizations of script
 -Added status handling to down page (handling of different status codes)
