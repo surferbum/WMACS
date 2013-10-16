@@ -51,7 +51,7 @@ else //If WMACS is enabled the database method will be used
         //The below can be configured by experienced developers
         $query = "SELECT * FROM $mysql_table"; 
         $data = $dbconnect->prepare($query);
-        $data->bind_result($id, $srv_name, $admin, $email);
+        $data->bind_result($id, $srv_name, $admin, $email, $status);
 	    $data->execute(); 
 	    while($data->fetch())
             {
@@ -59,6 +59,7 @@ else //If WMACS is enabled the database method will be used
                 $_SESSION['srv_name'] = $srv_name;
                 $_SESSION['admin'] = $admin;
                 $_SESSION['e-mail'] = $email;
+                $_SESSION['status'] = $status;
             }
     }
 }
