@@ -17,4 +17,7 @@ commercial web sites when undergoing maintenance.
 NOTE: The original source started with a simple switch which the remains can be 
 found in the down.php page.
 
-Download coming soon to http://downloads.sparrowgrove.com
+Download:
+
+-<b>Linux</b>: http://download.sparrowgrove.com/s/ufems1e9n017uw8/WMACS_v_2_1_0_0006.tar.gz
+-<b>Windows</b>: http://dl.dropboxusercontent.com/s/v2ejbfsdyyud9dx/WMACS_v_2_1_0_0006.zip
