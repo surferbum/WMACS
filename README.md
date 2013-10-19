@@ -15,7 +15,10 @@ commercial web sites when undergoing maintenance.
 
 
 NOTE: The original source started with a simple switch which the remains can be 
-found in the down.php page.
+found in the down.php page. 
+
+NOTE2: The WMACS script by default is disabled so it will use the switch provided
+        above the no edit line (Look For The Pyramid)
 
 Download:
 
