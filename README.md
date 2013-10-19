@@ -1,4 +1,4 @@
-<B>WMACS Version 2.1</B>
+<B>WMACS Version 2.1 build-28</B>
 =====
 
 WMACS (Website Maintenance and Availability Checking System) is a PHP script to 
