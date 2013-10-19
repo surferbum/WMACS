@@ -3,9 +3,10 @@
  * 
  *      AUTHOR: Christopher Sparrowgrove
  *      E-MAIL: developers@sparrowgrove.com
- *     WEBSITE: http://christopher.sparrowgrove.com
+ *     WEBSITE: https://github.com/nam2long/WMACS
  *        DATE: JULY 8, 2011
- * DESCRIPTION: This script handels the different status setings and messages
+ *        NAME: WMACS (Website Maintenance and Avilability Checking System)
+ * DESCRIPTION: See README file
  *     LICENSE: See Included File or E-mail Developer for Copy
  *   COPYRIGHT: ©Copyright 2011 - All Rights Reserved   
  *      
